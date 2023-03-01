@@ -144,7 +144,7 @@ bool = isTruthy( null );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/assert/is-falsy`][@stdlib/assert/is-falsy]</span><span class="delimiter">: </span><span class="description">test if a value is falsy.</span>
+-   <span class="package-name">[`@stdlib/assert-is-falsy`][@stdlib/assert/is-falsy]</span><span class="delimiter">: </span><span class="description">test if a value is falsy.</span>
 
 </section>
 
