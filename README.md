@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isTruthy from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-truthy@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-truthy/tags). For example,
+
+```javascript
 import isTruthy from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-truthy@v0.2.0-deno/mod.js';
 ```
 
@@ -88,7 +93,7 @@ bool = isTruthy( void 0 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isTruthy from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-truthy@v0.2.0-deno/mod.js';
+import isTruthy from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-truthy@deno/mod.js';
 
 var bool = isTruthy( true );
 // returns true
