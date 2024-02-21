@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isTruthy from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-truthy@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-truthy/tags). For example,
+
+```javascript
 import isTruthy from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-truthy@v0.2.1-esm/index.mjs';
 ```
 
@@ -93,7 +98,7 @@ bool = isTruthy( void 0 );
 <body>
 <script type="module">
 
-import isTruthy from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-truthy@v0.2.1-esm/index.mjs';
+import isTruthy from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-truthy@esm/index.mjs';
 
 var bool = isTruthy( true );
 // returns true
