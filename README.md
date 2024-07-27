@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isTruthy from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-truthy@deno/mod.js';
+import isTruthy from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-truthy@v0.2.2-deno/mod.js';
 ```
 
 #### isTruthy( value )
@@ -88,7 +88,7 @@ bool = isTruthy( void 0 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isTruthy from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-truthy@deno/mod.js';
+import isTruthy from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-truthy@v0.2.2-deno/mod.js';
 
 var bool = isTruthy( true );
 // returns true
